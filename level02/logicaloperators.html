@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>logical operator</title>
+</head>
+<body>
+    <h3>
+        And operator
+    </h3>
+
+ <h3>OR operator</h3>
+ <h3>NOT operator</h3>
+
+</body>
+ <script>
+     let a = 10
+     let b = true
+      if( a > 5 && b ) 
+      console.log("Both conditions are true");
+      else 
+       console.log("At least one condition is false");
+
+       let userRole = "admin";
+       let isLoggedIn = true;
+
+       if( userRole === "admin" || isLoggedIn ) {
+           console.log("User is an admin or is logged in");
+       } else {
+           console.log("User is neither an admin nor logged in");
+       }
+
+
+       let isRaining = false;
+       if( !isRaining ) {
+           console.log("It is not raining");
+       }
+
+ </script>
+</html>
